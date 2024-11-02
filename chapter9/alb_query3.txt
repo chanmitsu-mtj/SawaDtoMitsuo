@@ -1,0 +1,5 @@
+SELECT *
+FROM alb_logs
+WHERE
+   date between 'yyyy/mm/dd' AND 'yyyy/mm/dd'
+ORDER by date ASC

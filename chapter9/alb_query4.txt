@@ -1,0 +1,6 @@
+SELECT *
+FROM alb_logs
+WHERE
+   date between 'yyyy/mm/dd' AND 'yyyy/mm/dd'
+   AND elb_status_code >= 400
+ORDER by date ASC
